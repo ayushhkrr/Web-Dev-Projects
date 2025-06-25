@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Site</title>
+  </head>
+  <body>
+    <h1>fill the form</h1>
+    <form action="post">
+      <div>
+        <label for="username">enter your username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="enter your username" autofocus
+        />
+      </div>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">female</label>
+      </div>
+      <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes" >
+        <label for="subscribe">subscribe</label>
+      </div>
+      <div>
+        <label for="comment">Enter your comment</label>
+        <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
+      </div>
+        <div>
+         <label for="movies">Select your favourite movie</label>
+         <br>
+          <select name="movies" id="movies">
+
+            <option value="oppenhimer">Oppenhimer</option>
+            <option value="culpa mia">Culpa mia</option>
+            <option value="after">After</option>
+          </select>
+        </div>
+    </form>
+  </body>
+</html>

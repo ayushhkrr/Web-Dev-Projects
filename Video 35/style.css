@@ -1,0 +1,33 @@
+.box:first-child{
+    background-color: aqua;
+}
+/* .box::first-line{
+    color: blue;
+} */
+ /* .boxes *{
+    border: 2px solid black;
+ }
+ .box, [data-color="primary"]{
+    margin-top: 20px;
+ } */
+  /* .box:nth-child(odd){
+    background-color: rgb(236, 12, 53);
+  } */
+   /* .box:nth-last-child(2){
+    background-color: black;
+   } */
+    .boxes::after{
+       content: "Luffy is Goated Character"; 
+       color: rgb(60, 247, 79);
+    }
+    ::selection{
+        background-color: black;
+        color: blue;
+    }
+    .box::first-letter{
+color: peru;
+font-weight: bolder;
+    }
+    input::placeholder{
+        color: brown;
+    }

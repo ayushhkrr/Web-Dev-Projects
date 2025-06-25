@@ -1,0 +1,21 @@
+img{
+    border: 5px solid white;
+    border-radius: 10px;
+    float: left;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.cards{
+    border: 2px solid black;
+    display: flow-root;
+    
+}
+.card{
+    border: 2px solid aqua;
+}
+.card:nth-child(3){
+    background-color: violet;
+    clear: both;
+}

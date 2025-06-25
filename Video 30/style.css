@@ -1,0 +1,23 @@
+.nav{
+    background-color: var(--color);
+}
+.container{
+    background-color: var(--seccolor);
+}
+*{
+    margin: 0;
+    padding: var(--defpad);
+}
+ul li{
+    list-style: none;
+    padding: var(--defpad);
+}
+ul{
+    display: flex;
+    
+}
+:root{
+    --color: rgb(20, 240, 148);
+--seccolor: aqua;
+--defpad: 10px;
+}

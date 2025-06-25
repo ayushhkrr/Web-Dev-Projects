@@ -1,0 +1,25 @@
+.first{
+    background-color: aqua;
+}
+.first1{
+    color: blueviolet;
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid greenyellow;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+.first2{
+    color: rgb(230, 33, 15);
+     margin: 10px;
+    padding: 5px;
+    border: 5px solid rgb(117, 17, 230);
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+}
+@media only screen and (max-width: 400px){
+    body{
+        
+        background-color: rgb(89, 245, 89);
+    }
+    .boxes{
+        flex-direction: column;
+    }
+}
+.box{
+    background-color: bisque;
+    margin: 4px;
+    padding: 4px;
+    border: 4px solid rgb(93, 93, 237);
+    width: 200px;
+    height: 150px;
+}
+.boxes{
+    display: flex;
+}
+@media screen and (orientation: landscape){
+    body{
+        background-color: cadetblue;
+    }
+}
