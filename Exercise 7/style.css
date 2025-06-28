@@ -80,6 +80,7 @@ main .four{
     justify-content: center;
     margin-top: 70px;
     margin-left: -245px;
+    margin-bottom: 20px;
 }
 .four img{
     width: 50px;
@@ -126,9 +127,16 @@ main .four{
   /* justify-content: center;
   align-items: center; */
   gap: 12px;
-  margin-left: 200px;
-  margin-right: 200px;
+  /* margin-left: 200px;
+  margin-right: 200px; */
+  /* margin: auto; */
+  margin: auto;
+    max-width: 50vw;
    }
+   /* section{
+    margin: auto;
+    max-width: 50vw;
+   } */
 .item button{
     margin-top: 60px;
     background-color: #5cb85c;
@@ -145,11 +153,19 @@ main .four{
     font-family: sans-serif;
     font-weight: bold;
 }
-@media screen and (max-width: 356px){
+@media screen and (max-width: 450px){
 .grid{
     display: grid;
     grid-template-columns: 1fr;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    justify-content: center;
+    
 
+}
+p{
+    max-width: 50vw;
+    margin: auto;
 }
 }
 button a{
