@@ -1,22 +1,9 @@
-// for (let i = 0; i < 10; i++){
-//     console.log(i)
-// }
-// sum = 0
-// for (i = 0; i <= 50; i++){
-//     if (i % 2 === 0) {
-//         sum = sum + i;
+// for (let i = 5; i >= 1; i--) {
+//     let pattern = '';
+//     for (let j = 1; j <= i; j++) {
+//         pattern += '&';
 //     }
-
-// }console.log(sum)
-
-// let sum = 0;
-// for (i = 0; i <= 10; i++) {
-//     sum = sum + i;
-// }
-//    console.log(sum)
-
-// for (i = 1; i <= 10; i++){
-//     console.log(`5 * ${i} = ${i*5}`)
+//     console.log(pattern);
 // }
 // factor = 1
 // for (i = 1; i <= 5; i++){
@@ -50,16 +37,36 @@
 //     console.log(num + " is not a prime number")
 // }
 
-let x1 = 0;
-let x2 = 1;
-let xx;
-console.log(x1);
-console.log(x2);
+// let x1 = 0;
+// let x2 = 1;
+// let xx;
+// console.log(x1);
+// console.log(x2);
 
-for (i = 3; i < 11; i++) {
-  xx = x1 + x2;
-    console.log(xx);
-    x1 = x2
-    x2 = xx
+// for (i = 3; i < 11; i++) {
+//   xx = x1 + x2;
+//     console.log(xx);
+//     x1 = x2
+//     x2 = xx
+// }
+  
+// for (i = 1; i < 5; i++){
+//   let pattern = "*"
+//   for (x = 1; x < i; x++){
+
+//     pattern += "*"
+//   }
+// console.log(pattern)
+// }
+
+for (i = 5; i > 0; i--){
+  let pattern = ""
+  for (j = 0; j < i; j++){
+    pattern += "&"
+  }
+  console.log(pattern)
 }
 
+let multiply = (a, b)=> {
+  return a*b
+}
